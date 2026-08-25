@@ -1,0 +1,731 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#503264" />
+    <title>BNBU WFBC | 北师港浸大女子足球队</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              violet: "#503264",
+              rose: "#E6D2D7",
+              cream: "#F9F6F4",
+              ink: "#231D28",
+            },
+            fontFamily: {
+              sans: ["Inter", "Poppins", "Arial", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="field-texture min-h-screen font-sans text-ink antialiased">
+    <header class="hero relative overflow-hidden text-white">
+      <nav
+        class="mx-auto flex max-w-7xl items-center justify-between px-5 py-5 sm:px-8 lg:px-10"
+      >
+        <a href="#top" class="flex items-center gap-3" aria-label="返回首页">
+          <span
+            class="grid h-10 w-10 place-items-center rounded-full border border-rose/60 bg-white/10 text-xs font-black tracking-tight"
+            >WFC</span
+          >
+          <span class="text-sm font-bold tracking-[.24em]">BNBU ATHLETICS</span>
+        </a>
+        <a
+          href="#squad"
+          class="rounded-full border border-white/30 bg-white/10 px-4 py-2 text-xs font-bold tracking-[.2em] transition hover:bg-white/20"
+          >MEET THE TEAM</a
+        >
+      </nav>
+
+      <div
+        id="top"
+        class="mx-auto grid max-w-7xl gap-8 px-5 pb-16 pt-8 sm:px-8 sm:pb-24 lg:grid-cols-[1.18fr_.82fr] lg:px-10 lg:pb-28 lg:pt-16"
+      >
+        <div class="self-center">
+          <div
+            class="mb-5 flex items-center gap-3 text-xs font-bold tracking-[.32em] text-rose"
+          >
+            <span class="h-px w-10 bg-rose"></span>
+            WOMEN'S FOOTBALL CLUB
+          </div>
+          <h1
+            class="text-6xl font-black leading-[.88] tracking-[-.07em] sm:text-8xl lg:text-[8.3rem]"
+          >
+            BNBU<br /><span class="text-rose">WFBC</span>
+          </h1>
+          <p class="mt-6 max-w-xl text-lg leading-7 text-white/75 sm:text-2xl">
+            北师港浸大女子足球队<br />
+            <span class="text-lg tracking-[.18em] text-rose/90"
+              >PLAY BOLD. STAY TOGETHER.</span
+            >
+          </p>
+          <a
+            href="#squad"
+            class="mt-8 inline-flex items-center gap-3 rounded-full bg-rose px-6 py-3 text-base font-black tracking-widest text-violet transition hover:-translate-y-1 hover:bg-white"
+          >
+            EXPLORE SQUAD
+            <span aria-hidden="true">↓</span>
+          </a>
+        </div>
+
+        <div
+          class="relative grid min-h-[280px] place-items-center sm:min-h-[380px]"
+        >
+          <div
+            class="absolute h-[340px] w-[340px] rounded-full border border-white/20 sm:h-[430px] sm:w-[430px]"
+          ></div>
+          <div
+            class="absolute h-[240px] w-[240px] rounded-full border border-white/15 sm:h-[310px] sm:w-[310px]"
+          ></div>
+          <div
+            class="crest relative grid h-52 w-52 place-items-center rounded-full border-2 border-rose bg-white/10 backdrop-blur-sm sm:h-64 sm:w-64"
+          >
+            <div class="text-center">
+              <div class="text-base font-bold tracking-[.44em] text-rose">
+                EST. 2022
+              </div>
+              <div
+                class="mt-2 text-7xl font-black tracking-tighter text-white sm:text-8xl"
+              >
+                W
+              </div>
+              <div class="mt-1 text-sm font-bold tracking-[.38em] text-rose">
+                FOOTBALL
+              </div>
+            </div>
+          </div>
+          <div
+            class="absolute right-1 top-3 h-24 w-32 rotate-[-8deg] text-rose/65 sm:right-6 sm:top-5 sm:h-32 sm:w-44"
+            aria-hidden="true"
+          >
+            <svg viewBox="0 0 176 128" class="h-full w-full" fill="none">
+              <path
+                d="M10 106C38 102 38 70 66 69C94 68 92 32 126 30C144 29 156 20 164 10"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-dasharray="6 7"
+                stroke-linecap="round"
+              />
+              <circle cx="10" cy="106" r="6" fill="currentColor" />
+              <circle cx="66" cy="69" r="6" fill="currentColor" />
+              <path
+                d="M154 8L165 9L163 20"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="absolute bottom-0 right-0 rounded-full border border-rose/40 bg-white/10 px-3 py-1 text-[9px] font-black tracking-[.22em] text-rose backdrop-blur-sm"
+              >GAME PLAN</span
+            >
+          </div>
+          <div
+            class="absolute bottom-5 left-0 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-sm font-bold tracking-[.24em] text-rose backdrop-blur sm:left-8"
+          >
+            TEAM FIRST
+          </div>
+        </div>
+      </div>
+
+      <div class="border-t border-white/10 bg-black/10">
+        <div
+          class="mx-auto grid max-w-7xl grid-cols-3 gap-2 px-5 py-4 text-center sm:px-8 lg:px-10"
+        >
+          <div>
+            <div id="activeCount" class="text-xl font-black text-rose"></div>
+            <div class="text-[10px] font-bold tracking-[.18em] text-white/60">
+              ACTIVE PLAYERS
+            </div>
+          </div>
+          <div class="border-x border-white/15">
+            <div class="text-xl font-black text-rose">ONE</div>
+            <div class="text-[10px] font-bold tracking-[.18em] text-white/60">
+              TEAM SPIRIT
+            </div>
+          </div>
+          <div>
+            <div class="text-xl font-black text-rose">∞</div>
+            <div class="text-[10px] font-bold tracking-[.18em] text-white/60">
+              POSSIBILITIES
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main
+      id="squad"
+      class="mx-auto max-w-7xl px-5 py-16 sm:px-8 sm:py-20 lg:px-10"
+    >
+      <section aria-labelledby="squad-title">
+        <div
+          class="flex flex-col justify-between gap-6 border-b border-violet/15 pb-7 sm:flex-row sm:items-end"
+        >
+          <div>
+            <div
+              class="mb-3 text-xs font-black tracking-[.28em] text-violet/55"
+            >
+              01 / TEAM ROSTER
+            </div>
+            <h2
+              id="squad-title"
+              class="text-4xl font-black tracking-tight text-violet sm:text-5xl"
+            >
+              Current Squad
+            </h2>
+            <p
+              id="squadSubtitle"
+              class="mt-3 max-w-xl text-lg leading-6 text-ink/60"
+            >
+              现役队员 · 点击卡片，认识球场之外的她们。
+            </p>
+          </div>
+          <button
+            id="viewToggle"
+            type="button"
+            class="group inline-flex w-fit items-center gap-3 rounded-full border border-violet/25 bg-white/70 px-5 py-3 text-sm font-bold tracking-wide text-violet transition hover:border-violet hover:bg-violet hover:text-white"
+          >
+            <span id="viewToggleLabel">毕业队员</span>
+            <span
+              class="transition-transform group-hover:translate-x-1"
+              aria-hidden="true"
+              >→</span
+            >
+          </button>
+        </div>
+
+        <div
+          id="playerGrid"
+          class="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+          aria-live="polite"
+        ></div>
+      </section>
+
+      <section
+        class="mt-20 overflow-hidden rounded-3xl bg-violet px-6 py-8 text-white sm:px-10 sm:py-10"
+      >
+        <div class="grid items-center gap-8 md:grid-cols-[1fr_auto]">
+          <div>
+            <div class="text-xs font-black tracking-[.28em] text-rose">
+              OUR GAME
+            </div>
+            <h2 class="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
+              Built on trust.<br />Driven by the game.
+            </h2>
+            <p class="mt-4 max-w-xl text-base leading-6 text-white/65">
+              每一次跑动、每一次传球、每一场并肩作战，都让我们成为更好的球队。
+            </p>
+          </div>
+          <div
+            class="grid h-28 w-28 place-items-center rounded-full border border-rose/40 text-center text-base font-black tracking-[.16em] text-rose"
+          >
+            BNBU<br />WFBC
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-violet/10 bg-white/60">
+      <div
+        class="mx-auto flex max-w-7xl flex-col gap-3 px-5 py-6 text-xs font-bold tracking-[.14em] text-violet/55 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10"
+      >
+        <span>BNBU WFBC · WOMEN'S FOOTBALL CLUB</span>
+        <span>PLAY BOLD · STAY TOGETHER</span>
+      </div>
+    </footer>
+
+    <div
+      id="playerModal"
+      class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center bg-violet/55 p-4 backdrop-blur-md"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalName"
+    >
+      <div
+        class="modal-panel relative max-h-[90vh] w-full max-w-2xl overflow-y-auto rounded-3xl border border-white/50 bg-cream shadow-2xl"
+      >
+        <button
+          id="closeModal"
+          type="button"
+          class="absolute right-4 top-4 z-10 grid h-11 w-11 place-items-center rounded-full bg-white text-2xl font-light text-violet shadow-md transition hover:bg-violet hover:text-white"
+          aria-label="关闭弹窗"
+        >
+          ×
+        </button>
+        <div class="grid sm:grid-cols-[190px_1fr]">
+          <div class="relative overflow-hidden bg-violet p-6 text-white">
+            <div
+              id="modalPortrait"
+              class="portrait relative mx-auto h-32 w-32 cursor-pointer overflow-visible rounded-2xl border-4 border-white/60"
+              role="button"
+              tabindex="0"
+              aria-label="查看头像大图"
+              title="点击查看头像大图"
+            >
+              <span
+                id="modalGraduationCap"
+                class="absolute -right-5 -top-6 z-20 hidden rotate-12 text-5xl drop-shadow-md"
+                aria-label="毕业队员"
+                >🎓</span
+              >
+              <span
+                class="upload-hint absolute inset-x-2 bottom-2 z-20 rounded-xl bg-violet/85 py-1 text-center text-[10px] font-black tracking-[.16em] text-white"
+                >VIEW</span
+              >
+            </div>
+            <button
+              id="resetCurrentAvatar"
+              type="button"
+              class="mx-auto mt-3 grid h-9 w-9 place-items-center rounded-full border border-rose/50 bg-white/10 text-xl font-black text-rose transition hover:bg-rose hover:text-violet"
+              aria-label="恢复当前队员默认头像"
+              title="恢复默认头像"
+            >
+              ↵
+            </button>
+            <div
+              id="modalNumber"
+              class="mt-4 text-center text-7xl font-black tracking-tighter text-rose"
+            ></div>
+            <div
+              class="mt-1 text-center text-[10px] font-black tracking-[.24em] text-white/60"
+            >
+              SQUAD NUMBER
+            </div>
+          </div>
+          <div class="p-6 sm:p-8">
+            <div
+              id="modalStatus"
+              class="text-xs font-black tracking-[.24em] text-violet/50"
+            ></div>
+            <h3
+              id="modalName"
+              class="mt-2 pr-10 text-3xl font-black tracking-tight text-violet"
+            ></h3>
+            <div
+              id="modalMeta"
+              class="mt-2 text-base font-bold text-ink/60"
+            ></div>
+            <div class="mt-6 grid gap-3">
+              <div class="rounded-2xl bg-white p-4">
+                <div
+                  class="text-[10px] font-black tracking-[.2em] text-violet/45"
+                >
+                  PERSONALITY / MBTI
+                </div>
+                <div
+                  id="modalMbti"
+                  class="mt-1 text-lg font-black text-violet"
+                ></div>
+              </div>
+              <div class="rounded-2xl bg-white p-4">
+                <div
+                  class="text-[10px] font-black tracking-[.2em] text-violet/45"
+                >
+                  OFF-PITCH FAVORITES / 兴趣爱好
+                </div>
+                <div
+                  id="modalHobbies"
+                  class="mt-1 text-base font-bold leading-7 text-ink/75"
+                ></div>
+              </div>
+              <div id="modalClubBlock" class="hidden rounded-2xl bg-white p-4">
+                <div
+                  class="text-[10px] font-black tracking-[.2em] text-violet/45"
+                >
+                  FAVORITE CLUB / 主队
+                </div>
+                <div
+                  id="modalClubName"
+                  class="mt-2 text-lg font-black text-violet"
+                ></div>
+              </div>
+              <div
+                id="modalNumberReasonBlock"
+                class="hidden rounded-2xl bg-white p-4"
+              >
+                <div
+                  class="text-[10px] font-black tracking-[.2em] text-violet/45"
+                >
+                  WHY THIS NUMBER
+                </div>
+                <div
+                  id="modalNumberReason"
+                  class="mt-1 text-base font-bold leading-7 text-ink/75"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-t border-violet/10 bg-rose/55 px-6 py-6 sm:px-8">
+          <div class="text-[10px] font-black tracking-[.2em] text-violet/45">
+            TEAM SIGNATURE / 一句队内签名
+          </div>
+          <blockquote
+            id="modalSignature"
+            class="mt-2 text-xl font-black leading-relaxed text-violet"
+          ></blockquote>
+        </div>
+      </div>
+    </div>
+    <div
+      id="avatarPreview"
+      class="modal-backdrop fixed inset-0 z-[60] hidden items-center justify-center bg-violet/70 p-4 backdrop-blur-md"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="avatarPreviewName"
+    >
+      <div
+        class="modal-panel relative w-full max-w-lg rounded-3xl border border-white/40 bg-cream p-6 shadow-2xl"
+      >
+        <button
+          id="closeAvatarPreview"
+          type="button"
+          class="absolute right-4 top-4 z-10 grid h-11 w-11 place-items-center rounded-full bg-white text-2xl font-light text-violet shadow-md transition hover:bg-violet hover:text-white"
+          aria-label="关闭头像大图"
+        >
+          ×
+        </button>
+        <div
+          id="avatarPreviewPortrait"
+          class="portrait relative mx-auto mt-8 h-72 w-72 overflow-hidden rounded-3xl border-4 border-rose/70 sm:h-80 sm:w-80"
+        ></div>
+        <h3
+          id="avatarPreviewName"
+          class="mt-5 text-center text-2xl font-black tracking-tight text-violet"
+        ></h3>
+      </div>
+    </div>
+    <input
+      id="avatarUpload"
+      class="hidden"
+      type="file"
+      accept="image/*"
+      aria-label="上传头像图片"
+    />
+
+    <script>
+      // Data layer is loaded from data/players.json so profiles can grow without editing markup.
+      let players = [];
+
+      const elements = {
+        grid: document.querySelector("#playerGrid"),
+        squadTitle: document.querySelector("#squad-title"),
+        squadSubtitle: document.querySelector("#squadSubtitle"),
+        viewToggle: document.querySelector("#viewToggle"),
+        viewToggleLabel: document.querySelector("#viewToggleLabel"),
+        avatarUpload: document.querySelector("#avatarUpload"),
+        activeCount: document.querySelector("#activeCount"),
+        modal: document.querySelector("#playerModal"),
+        modalPortrait: document.querySelector("#modalPortrait"),
+        resetCurrentAvatar: document.querySelector("#resetCurrentAvatar"),
+        avatarPreview: document.querySelector("#avatarPreview"),
+        avatarPreviewPortrait: document.querySelector("#avatarPreviewPortrait"),
+        avatarPreviewName: document.querySelector("#avatarPreviewName"),
+        closeAvatarPreview: document.querySelector("#closeAvatarPreview"),
+        closeModal: document.querySelector("#closeModal"),
+        modalName: document.querySelector("#modalName"),
+        modalNumber: document.querySelector("#modalNumber"),
+        modalStatus: document.querySelector("#modalStatus"),
+        modalMeta: document.querySelector("#modalMeta"),
+        modalMbti: document.querySelector("#modalMbti"),
+        modalHobbies: document.querySelector("#modalHobbies"),
+        modalSignature: document.querySelector("#modalSignature"),
+        modalClubBlock: document.querySelector("#modalClubBlock"),
+        modalClubName: document.querySelector("#modalClubName"),
+        modalNumberReasonBlock: document.querySelector(
+          "#modalNumberReasonBlock",
+        ),
+        modalNumberReason: document.querySelector("#modalNumberReason"),
+        modalGraduationCap: document.querySelector("#modalGraduationCap"),
+      };
+
+      let showingGraduated = false;
+      let lastFocusedCard = null;
+      let pendingAvatarPlayerId = null;
+      let currentModalPlayer = null;
+
+      const getVisiblePlayers = () =>
+        players.filter((player) => player.isGraduated === showingGraduated);
+      const getAvatarKey = (playerId) => `bnbu-wfbc-avatar-${playerId}`;
+      const getPlayerAvatar = (playerId) =>
+        localStorage.getItem(getAvatarKey(playerId));
+      const setPlayerAvatar = (playerId, dataUrl) =>
+        localStorage.setItem(getAvatarKey(playerId), dataUrl);
+      const removePlayerAvatar = (playerId) =>
+        localStorage.removeItem(getAvatarKey(playerId));
+
+      const renderPortraitImage = (portrait, player) => {
+        portrait
+          .querySelectorAll(".portrait-photo")
+          .forEach((image) => image.remove());
+        const avatar = getPlayerAvatar(player.id) || player.avatar;
+        portrait.classList.toggle("has-photo", Boolean(avatar));
+        if (!avatar) return;
+
+        const image = document.createElement("img");
+        image.className = "portrait-photo";
+        image.src = avatar;
+        image.alt = `${player.name} 头像`;
+        image.addEventListener(
+          "error",
+          () => {
+            image.remove();
+            portrait.classList.remove("has-photo");
+          },
+          { once: true },
+        );
+        portrait.prepend(image);
+      };
+
+      const requestAvatarUpload = (playerId) => {
+        pendingAvatarPlayerId = playerId;
+        elements.avatarUpload.value = "";
+        elements.avatarUpload.click();
+      };
+
+      const openAvatarPreview = (player) => {
+        renderPortraitImage(elements.avatarPreviewPortrait, player);
+        elements.avatarPreviewName.textContent = player.name;
+        elements.avatarPreview.classList.remove("hidden");
+        elements.avatarPreview.classList.add("flex");
+        elements.closeAvatarPreview.focus();
+      };
+
+      const closeAvatarPreview = () => {
+        elements.avatarPreview.classList.add("hidden");
+        elements.avatarPreview.classList.remove("flex");
+        elements.modalPortrait.focus();
+      };
+
+      const createPlayerCard = (player) => {
+        const card = document.createElement("article");
+        card.className = `player-card group relative cursor-pointer overflow-hidden rounded-3xl border bg-white/85 p-6 text-left shadow-sm outline-none ${player.isGraduated ? "alumni-card" : "border-violet/10"}`;
+        card.dataset.playerId = player.id;
+        card.tabIndex = 0;
+        card.setAttribute("role", "button");
+        card.setAttribute("aria-label", `查看 ${player.name} 的详细信息`);
+        card.innerHTML = `
+        <div class="flex items-start justify-between gap-3">
+          <div class="portrait relative h-24 w-24 cursor-pointer overflow-visible rounded-2xl border-4 border-rose/60" role="button" tabindex="0" aria-label="上传 ${player.name} 的头像" title="点击上传头像">
+            <div class="h-full w-full overflow-hidden rounded-xl"></div>
+            ${player.isGraduated ? '<span class="absolute -right-3 -top-4 z-20 rotate-12 text-4xl drop-shadow-md" aria-label="毕业队员">🎓</span>' : ""}
+            <span class="upload-hint absolute inset-x-1 bottom-1 z-20 rounded-lg bg-violet/85 py-1 text-center text-[9px] font-black tracking-[.14em] text-white">UPLOAD</span>
+          </div>
+          <span class="text-5xl font-black leading-none tracking-tighter text-violet/15 transition group-hover:text-violet/25">${String(player.number).padStart(2, "0")}</span>
+        </div>
+        <div class="mt-6 flex items-center gap-2">
+          <h3 class="text-2xl font-black tracking-tight text-violet">${player.name}</h3>
+          ${player.isCaptain ? '<span class="rounded-full bg-violet px-2.5 py-1 text-xs font-black tracking-widest text-white">CAPTAIN</span>' : ""}
+        </div>
+        <div class="mt-2 flex flex-wrap gap-2 text-base font-bold text-ink/65">
+          <span>${player.position}</span>
+          <span class="text-violet/30">/</span>
+          <span>${player.major} · ${player.grade}</span>
+        </div>
+        <div class="mt-3 inline-flex rounded-full bg-rose/40 px-3 py-1.5 text-sm font-black text-violet">
+          ${player.hometown}
+        </div>
+        <div class="mt-5 flex items-center justify-between border-t border-violet/10 pt-4">
+          <span class="text-sm font-black tracking-[.15em] text-violet/55">PLAYER PROFILE</span>
+          <span class="grid h-8 w-8 place-items-center rounded-full bg-rose text-violet transition group-hover:bg-violet group-hover:text-white" aria-hidden="true">↗</span>
+        </div>
+      `;
+        const portrait = card.querySelector(".portrait");
+        renderPortraitImage(portrait, player);
+        portrait.addEventListener("click", (event) => {
+          event.stopPropagation();
+          requestAvatarUpload(player.id);
+        });
+        portrait.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            event.stopPropagation();
+            requestAvatarUpload(player.id);
+          }
+        });
+        card.addEventListener("click", () => openModal(player, card));
+        card.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            openModal(player, card);
+          }
+        });
+        return card;
+      };
+
+      const renderRoster = () => {
+        elements.grid.replaceChildren(
+          ...getVisiblePlayers().map(createPlayerCard),
+        );
+        elements.squadTitle.textContent = showingGraduated
+          ? "Alumni Squad"
+          : "Current Squad";
+        elements.squadSubtitle.textContent = showingGraduated
+          ? "毕业队员 · 聚散终有时，再见亦有期。"
+          : "现役队员 · 点击卡片，认识球场之外的她们。";
+        elements.viewToggleLabel.textContent = showingGraduated
+          ? "返回现役队员"
+          : "毕业队员";
+      };
+
+      const openModal = (player, card) => {
+        lastFocusedCard = card;
+        currentModalPlayer = player;
+        elements.modalName.textContent = player.name;
+        elements.modalNumber.textContent = String(player.number).padStart(
+          2,
+          "0",
+        );
+        elements.modalStatus.textContent = player.isGraduated
+          ? "ALUMNI PLAYER"
+          : player.isCaptain
+            ? "ACTIVE PLAYER · CAPTAIN"
+            : "ACTIVE PLAYER";
+        elements.modalMeta.textContent = `${player.position} · ${player.major} · ${player.grade} · 居住地 ${player.hometown}`;
+        elements.modalMbti.textContent = player.mbti;
+        elements.modalHobbies.textContent = player.hobbies;
+        elements.modalSignature.textContent = `“${player.signature}”`;
+        elements.modalGraduationCap.classList.toggle(
+          "hidden",
+          !player.isGraduated,
+        );
+        elements.modalClubBlock.classList.toggle(
+          "hidden",
+          !player.favoriteTeam,
+        );
+        if (player.favoriteTeam) {
+          elements.modalClubName.textContent = player.favoriteTeam.name;
+        }
+        elements.modalNumberReasonBlock.classList.toggle(
+          "hidden",
+          !player.numberReason,
+        );
+        elements.modalNumberReason.textContent = player.numberReason || "";
+        renderPortraitImage(elements.modalPortrait, player);
+        elements.modal.classList.remove("hidden");
+        elements.modal.classList.add("flex");
+        document.body.style.overflow = "hidden";
+        elements.closeModal.focus();
+      };
+
+      const closeModal = () => {
+        elements.modal.classList.add("hidden");
+        elements.modal.classList.remove("flex");
+        document.body.style.overflow = "";
+        lastFocusedCard?.focus();
+        currentModalPlayer = null;
+      };
+
+      elements.viewToggle.addEventListener("click", () => {
+        showingGraduated = !showingGraduated;
+        renderRoster();
+        document
+          .querySelector("#squad")
+          .scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      elements.resetCurrentAvatar.addEventListener("click", () => {
+        if (!currentModalPlayer) return;
+        removePlayerAvatar(currentModalPlayer.id);
+        renderRoster();
+        renderPortraitImage(elements.modalPortrait, currentModalPlayer);
+      });
+
+      elements.avatarUpload.addEventListener("change", (event) => {
+        const file = event.target.files?.[0];
+        if (!file || !pendingAvatarPlayerId) return;
+        if (!file.type.startsWith("image/")) {
+          alert("请选择图片文件。");
+          return;
+        }
+
+        const reader = new FileReader();
+        reader.addEventListener("load", () => {
+          try {
+            setPlayerAvatar(pendingAvatarPlayerId, reader.result);
+            renderRoster();
+            if (currentModalPlayer?.id === pendingAvatarPlayerId) {
+              renderPortraitImage(elements.modalPortrait, currentModalPlayer);
+            }
+          } catch (error) {
+            alert("图片太大，无法保存到浏览器本地。请换一张更小的图片。");
+          } finally {
+            pendingAvatarPlayerId = null;
+          }
+        });
+        reader.readAsDataURL(file);
+      });
+
+      elements.modalPortrait.addEventListener("click", (event) => {
+        event.stopPropagation();
+        if (currentModalPlayer) openAvatarPreview(currentModalPlayer);
+      });
+
+      elements.modalPortrait.addEventListener("keydown", (event) => {
+        if (
+          (event.key === "Enter" || event.key === " ") &&
+          currentModalPlayer
+        ) {
+          event.preventDefault();
+          openAvatarPreview(currentModalPlayer);
+        }
+      });
+
+      elements.closeAvatarPreview.addEventListener("click", closeAvatarPreview);
+      elements.avatarPreview.addEventListener("click", (event) => {
+        if (event.target === elements.avatarPreview) closeAvatarPreview();
+      });
+
+      elements.closeModal.addEventListener("click", closeModal);
+      elements.modal.addEventListener("click", (event) => {
+        if (event.target === elements.modal) closeModal();
+      });
+      document.addEventListener("keydown", (event) => {
+        if (
+          event.key === "Escape" &&
+          !elements.avatarPreview.classList.contains("hidden")
+        ) {
+          closeAvatarPreview();
+          return;
+        }
+        if (
+          event.key === "Escape" &&
+          !elements.modal.classList.contains("hidden")
+        )
+          closeModal();
+      });
+
+      const loadPlayers = async () => {
+        try {
+          const response = await fetch("data/players.json");
+          if (!response.ok)
+            throw new Error(`Failed to load players: ${response.status}`);
+          players = await response.json();
+          elements.activeCount.textContent = players.filter(
+            (player) => !player.isGraduated,
+          ).length;
+          renderRoster();
+        } catch (error) {
+          elements.grid.innerHTML = `
+          <div class="col-span-full rounded-3xl border border-violet/15 bg-white/85 p-6 text-violet">
+            <h3 class="text-xl font-black">队员数据加载失败</h3>
+            <p class="mt-2 text-sm font-bold text-ink/60">请通过本地服务器打开页面，或检查 data/players.json 是否存在。</p>
+          </div>
+        `;
+          console.error(error);
+        }
+      };
+
+      loadPlayers();
+    </script>
+  </body>
+</html>
